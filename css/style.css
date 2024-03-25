@@ -81,4 +81,21 @@ body {
     background-color: white;
     font-size: 30px;
     padding: 5px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.product-hover {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.content:hover .product-hover{
+    display: block;
+}
+
+.wishlist:hover {
+    color: red;
 }
