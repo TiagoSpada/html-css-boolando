@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -14,11 +18,67 @@
     flex-wrap: wrap;
 }
 
+.content {
+    position: relative;
+}
+
 .col-33 {
     margin: 10px;
     width: calc(100% / 3 - 20px);
 }
 
 .product {
-    max-width: 100%;
+    width: 100%;
+}
+
+.discount-label {
+    position: absolute;
+    color: white;
+    top: 80%;
+    font-size: 14px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.discount-label span {
+    padding: 5px 8px;
+}
+
+.brand {
+    font-size: 12px;
+}
+
+.product-type {
+    font-weight: 600;
+}
+
+.price {
+    font-size: 13px;
+    color: red;
+    font-weight: 800;
+}
+
+.sale {
+    color: black;
+    font-weight:normal;
+    text-decoration: line-through;
+}
+
+.wishlist {
+    position: absolute;
+    top: 1%;
+    right: 0;
+    background-color: white;
+    font-size: 30px;
+    padding: 5px 14px;
 }
